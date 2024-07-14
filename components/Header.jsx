@@ -22,6 +22,7 @@ const Header = () => {
         return () => window.removeEventListener('scroll', scrollYPos);
     }, []);
 
+    console.log(header);
     return (
         <header className={`${
             header ? 'py-4 bg-white shadow-lg dark:bg-accent' : 'py-6 dark:bg-transparent'} 
